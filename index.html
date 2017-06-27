@@ -3,63 +3,71 @@
 <head>
     <title>Vanessa's Portfolio</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./bower_components/materialize/dist/css/materialize.min.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <div class="row">
-                <div class="logo valign-wrapper col s2">
-                    <span class="dancer">💃</span>
-                </div>
-                <div class="personal-info col s10 right-align">
-                    <h1 class="my-name flow-text">Vanessa Bell</h1>
-                    <h6 class="job-title grey-text darken-4">Front-end Web Developer</h6>
-                </div>
-            </div> <!-- end row -->
+        <header class="row">
+            <div class="logo col s2 left-align">
+                <span class="dancer">💃</span>
+            </div>
+            <div class="personal-info flow-text col s10 right-align">
+                <h1 class="my-name grey-text darken-4">Vanessa Bell</h1>
+                <h5 class="job-title flow-text grey-text darken-4">Front-end Web Developer</h5>
+            </div>
         </header>
         <div class="divider"></div>
-        <section class="main-image section row">
+        <div class="main-image section row">
             <div class="col s12">
                 <img
-                    class="responsive-img"
-                    src="./images/hiking-splash-1600_large_2x.jpg"
+                    class="responsive-img z-depth-3"
+                    src="./images/hiking-splash-300_small_1x.jpg"
+                    srcset="./images/hiking-splash-800_medium_1x.jpg 800w, ./images/hiking-splash-1600_large_2x.jpg 1600w"
+                    sizes="100vw"
                     alt="Splash image">
             </div>
-        </section>
-        <section class="featured-work section">
-            <h5>Featured Work</h5>
+        </div>
+        <section class="featured-work">
+            <h4 class="grey-text lighten-3 flow-text">Featured Work</h4>
             <div class="row">
-                <div class="project center-align col s4">
+                <div class="project center-align col l4 m4 s12">
                     <a href="https://murmuring-dawn-81364.herokuapp.com/">
                         <img
-                            class="responsive-img"
-                            src="./images/rhetorical-uterus-portfolio-1600_large_2x.png"
+                            class="responsive-img z-depth-3"
+                            src="./images/rhetorical-uterus-portfolio-300_small_1x.png"
+                            srcset="./images/rhetorical-uterus-portfolio-800_medium_1x.png 800w, ./images/rhetorical-uterus-portfolio-1600_large_2x.png 1600w"
+                            sizes="(min-width: 36em) 33.3vw, 100vw"
                             alt="Rhetorical Uterus App">
                     </a>
                     <h5 class="flow-text">Rhetorical Uterus</h5>
                     <p><a href="https://github.com/vanessa-bell/rhetorical-uterus-v2">GitHub Repo</a></p>
                 </div>
-                <div class="project center-align col s4">
+                <div class="project center-align col l4 m4 s12">
                     <a href="http://kiosk.hackerdojo.com/">
                         <img
-                            class="responsive-img"
-                            src="./images/hacker-dojo-portfolio-1600_large_2x.png"
+                            class="responsive-img z-depth-3"
+                            src="./images/hacker-dojo-portfolio-300_small_1x.png"
+                            srcset="./images/hacker-dojo-portfolio-800_medium_1x.png 800w, ./images/hacker-dojo-portfolio-1600_large_2x.png 1600w"
+                            sizes="(min-width: 36em) 33.3vw, 100vw"
                             alt="Hacker Dojo Kiosk App">
                     </a>
                     <h5 class="flow-text">Hacker Dojo Kiosk</h5>
                     <p><a href="https://github.com/vanessa-bell/hd-kiosk-v2">GitHub Repo</a></p>
                 </div>
-                <div class="project center-align col s4">
+                <div class="project center-align col l4 m4 s12">
                     <img
-                        class="responsive-img"
-                        src="./images/hiking-splash-1600_large_2x.jpg"
+                        class="responsive-img z-depth-3"
+                        src="./images/flamenco-dancely-300_small_1x.jpg"
+                        srcset="./images/flamenco-dancely-800_medium_1x.jpg 800w, ./images/flamenco-dancely-1600_large_2x.jpg 1600w"
+                        sizes="(min-width: 36em) 33.3vw, 100vw"
                         alt="Splash image">
+                    <h5 class="flow-text">Dancely App</h5>
+                    <p><a href="https://github.com/vanessa-bell">GitHub</a></p>
                 </div>
             </div> <!-- end row -->
         </section>
-
     </div>
 </body>
 </html>

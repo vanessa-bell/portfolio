@@ -1,9 +1,37 @@
-.logo {
-    font-size: 5em;
-    margin-top: 10px;
+.dancer {
+    font-size: 6em;
 }
 
 .my-name, .job-title {
     text-transform: uppercase;
+    margin-bottom: 0.1em;
 }
 
+.main-image .responsive-img {
+    margin-top: 0.5em;
+}
+
+.project .responsive-img {
+    max-height: 155px;
+}
+
+@media screen and (min-width: 1190px) {
+    .project .responsive-img {
+        min-height: 155px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .featured-work h4 {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+
+    .project {
+        margin-bottom: 2em;
+    }
+
+    .my-name {
+        font-size: 2.5em;
+    }
+}
