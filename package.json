@@ -12,6 +12,7 @@
     "grunt-mkdir": "~0.1.2"
   },
   "dependencies": {
+    "favicon-emoji": "^1.0.4",
     "grunt-responsive-images": "^0.1.6"
   },
   "author": "Vanessa Bell",
